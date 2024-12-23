@@ -14,16 +14,16 @@ Both CPU affinity and usage limitation are configurable.
 2. **Run the Script**: Execute the script using PowerShell. Make sure to run PowerShell as an administrator to allow the script to modify process settings.
 
     ```powershell
-    .\poe2.ps1
+    Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process -Force; .\poe2.ps1
     ```
 
 3. **BONUS Create a Shortcut**:
     - Right-click on the desktop and select **New > Shortcut**.
     - For the location of the item, enter the path to `powershell.exe` followed by the path to your script, for example:
       ```
-      C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File "C:\Users\Myname\Desktop\Path Of Exiles 2\poe2.ps1"
+      C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Myname\Desktop\Path Of Exiles 2\poe2.ps1"
       ```
-    - Click **Next** and give your shortcut a name, such as "POE2 Performance Booster".
+    - Click **Next** and give your shortcut a name, such as "Fix My POE2".
     - Click **Finish**.
     - Right-click on the newly created shortcut and select **Properties**.
     - Click on the **Advanced** button and check the box **Run as administrator**.
