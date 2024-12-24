@@ -41,4 +41,4 @@ Both CPU affinity and usage limitation are configurable.
 
 ## Credits
 
-- This script uses [BES (Battle Encoder Shirase)](https://mion.faireal.net/BES/) to limit CPU usage.
+- This script uses [BES (Battle Encoder Shirase)](https://mion.yosei.fi/BES/) to limit CPU usage.
