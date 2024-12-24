@@ -8,8 +8,8 @@ Both CPU affinity and usage limitation are configurable.
 1. **Configure the Script**: Open the script file `poe2.ps1` and adjust the following variables if necessary:
     - `$limit`: Set the CPU usage limit percentage (1-99). Set to `0` if you do not want to limit CPU usage.
     - `$setAffinity`: Set to `$false` if you do not want to set the CPU affinity.
-    - `$steamUrl`: The Steam URL to launch Path of Exile. The default is `steam://rungameid/2694490`.
-    - `$delayTime`: The delay time in seconds to wait for the game to start before applying settings. The default is `10` seconds.
+    - `$steamUrl`: The Steam URL to launch Path of Exile (`steam://rungameid/2694490`).
+    - `$delayTime`: The delay time in seconds to wait for the game to start before applying settings.
 
 2. **Run the Script**: Execute the script using PowerShell. Make sure to run PowerShell as an administrator to allow the script to modify process settings.
 
